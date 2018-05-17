@@ -1,0 +1,155 @@
+pcf
+* control data
+restart  estimation
+    6   122     6     0     1
+    1     1 single point   1   0   0
+  5.0   2.0   0.3  0.03    10
+  3.0   3.0 0.001  0
+  0.1
+   30  0.01     3     3  0.01     3
+    1     1     1
+* parameter groups
+a            relative 0.01  0.0  switch  2.0 parabolic
+c            relative 0.01  0.0  switch  2.0 parabolic
+r            relative 0.01  0.0  switch  2.0 parabolic
+s            relative 0.01  0.0  switch  2.0 parabolic
+k            relative 0.01  0.0  switch  2.0 parabolic
+v            relative 0.01  0.0  switch  2.0 parabolic
+* parameter data
+a            none relative   0.120000      -1.000000E+10   1.000000E+10 a               1.0000        0.0000      1
+c            none relative   6.000000E-02  -1.000000E+10   1.000000E+10 c               1.0000        0.0000      1
+r            none relative   0.100000      -1.000000E+10   1.000000E+10 r               1.0000        0.0000      1
+s            none relative   0.100000      -1.000000E+10   1.000000E+10 s               1.0000        0.0000      1
+k            none relative    100.000      -1.000000E+10   1.000000E+10 k               1.0000        0.0000      1
+v            none relative    40.0000      -1.000000E+10   1.000000E+10 v               1.0000        0.0000      1
+* observation groups
+obsgroup
+* observation data
+pobs1                   50.0000      1.0  obsgroup
+nobs1                   5.00000      1.0  obsgroup
+pobs2                   57.9914      1.0  obsgroup
+nobs2                   5.68564      1.0  obsgroup
+pobs3                   64.9021      1.0  obsgroup
+nobs3                   6.71546      1.0  obsgroup
+pobs4                   70.3542      1.0  obsgroup
+nobs4                   8.05755      1.0  obsgroup
+pobs5                   74.2591      1.0  obsgroup
+nobs5                   9.68943      1.0  obsgroup
+pobs6                   76.7345      1.0  obsgroup
+nobs6                   1.59529      1.0  obsgroup
+pobs7                   77.9937      1.0  obsgroup
+nobs7                   3.76326      1.0  obsgroup
+pobs8                   78.2626      1.0  obsgroup
+nobs8                   6.18268      1.0  obsgroup
+pobs9                   77.7372      1.0  obsgroup
+nobs9                   8.84134      1.0  obsgroup
+pobs10                  76.5698      1.0  obsgroup
+nobs10                  1.72272      1.0  obsgroup
+pobs11                  74.8715      1.0  obsgroup
+nobs11                  4.80308      1.0  obsgroup
+pobs12                  72.7219      1.0  obsgroup
+nobs12                  8.04852      1.0  obsgroup
+pobs13                  70.1785      1.0  obsgroup
+nobs13                  1.41195      1.0  obsgroup
+pobs14                  67.2867      1.0  obsgroup
+nobs14                  4.83042      1.0  obsgroup
+pobs15                  64.0879      1.0  obsgroup
+nobs15                  8.22301      1.0  obsgroup
+pobs16                  60.6265      1.0  obsgroup
+nobs16                  1.48998      1.0  obsgroup
+pobs17                  56.9561      1.0  obsgroup
+nobs17                  4.51417      1.0  obsgroup
+pobs18                  53.1435      1.0  obsgroup
+nobs18                  7.16553      1.0  obsgroup
+pobs19                  49.2715      1.0  obsgroup
+nobs19                  9.31007      1.0  obsgroup
+pobs20                  45.4383      1.0  obsgroup
+nobs20                 0.823120      1.0  obsgroup
+pobs21                  41.7539      1.0  obsgroup
+nobs21                  1.60665      1.0  obsgroup
+pobs22                  38.3316      1.0  obsgroup
+nobs22                  1.60753      1.0  obsgroup
+pobs23                  35.2779      1.0  obsgroup
+nobs23                 0.832200      1.0  obsgroup
+pobs24                  32.6819      1.0  obsgroup
+nobs24                  9.35236      1.0  obsgroup
+pobs25                  30.6073      1.0  obsgroup
+nobs25                  7.29816      1.0  obsgroup
+pobs26                  29.0910      1.0  obsgroup
+nobs26                  4.84024      1.0  obsgroup
+pobs27                  28.1455      1.0  obsgroup
+nobs27                  2.16519      1.0  obsgroup
+pobs28                  27.7653      1.0  obsgroup
+nobs28                  9.45191      1.0  obsgroup
+pobs29                  27.9323      1.0  obsgroup
+nobs29                  6.85421      1.0  obsgroup
+pobs30                  28.6195      1.0  obsgroup
+nobs30                  4.49191      1.0  obsgroup
+pobs31                  29.7906      1.0  obsgroup
+nobs31                  2.44933      1.0  obsgroup
+pobs32                  31.3967      1.0  obsgroup
+nobs32                 0.778700      1.0  obsgroup
+pobs33                  33.3722      1.0  obsgroup
+nobs33                  9.50591      1.0  obsgroup
+pobs34                  35.6310      1.0  obsgroup
+nobs34                  8.63662      1.0  obsgroup
+pobs35                  38.0665      1.0  obsgroup
+nobs35                  8.16172      1.0  obsgroup
+pobs36                  40.5559      1.0  obsgroup
+nobs36                  8.06160      1.0  obsgroup
+pobs37                  42.9693      1.0  obsgroup
+nobs37                  8.30933      1.0  obsgroup
+pobs38                  45.1820      1.0  obsgroup
+nobs38                  8.87272      1.0  obsgroup
+pobs39                  47.0864      1.0  obsgroup
+nobs39                  9.71551      1.0  obsgroup
+pobs40                  48.6013      1.0  obsgroup
+nobs40                 0.797940      1.0  obsgroup
+pobs41                  49.6758      1.0  obsgroup
+nobs41                  2.07692      1.0  obsgroup
+pobs42                  50.2896      1.0  obsgroup
+nobs42                  3.50580      1.0  obsgroup
+pobs43                  50.4489      1.0  obsgroup
+nobs43                  5.03436      1.0  obsgroup
+pobs44                  50.1812      1.0  obsgroup
+nobs44                  6.60880      1.0  obsgroup
+pobs45                  49.5297      1.0  obsgroup
+nobs45                  8.17216      1.0  obsgroup
+pobs46                  48.5487      1.0  obsgroup
+nobs46                  9.66548      1.0  obsgroup
+pobs47                  47.3000      1.0  obsgroup
+nobs47                  1.02952      1.0  obsgroup
+pobs48                  45.8503      1.0  obsgroup
+nobs48                  2.20752      1.0  obsgroup
+pobs49                  44.2685      1.0  obsgroup
+nobs49                  3.14848      1.0  obsgroup
+pobs50                  42.6246      1.0  obsgroup
+nobs50                  3.81105      1.0  obsgroup
+pobs51                  40.9866      1.0  obsgroup
+nobs51                  4.16737      1.0  obsgroup
+pobs52                  39.4191      1.0  obsgroup
+nobs52                  4.20624      1.0  obsgroup
+pobs53                  37.9804      1.0  obsgroup
+nobs53                  3.93502      1.0  obsgroup
+pobs54                  36.7205      1.0  obsgroup
+nobs54                  3.37962      1.0  obsgroup
+pobs55                  35.6797      1.0  obsgroup
+nobs55                  2.58242      1.0  obsgroup
+pobs56                  34.8875      1.0  obsgroup
+nobs56                  1.59847      1.0  obsgroup
+pobs57                  34.3623      1.0  obsgroup
+nobs57                 0.490430      1.0  obsgroup
+pobs58                  34.1117      1.0  obsgroup
+nobs58                  9.32321      1.0  obsgroup
+pobs59                  34.1332      1.0  obsgroup
+nobs59                  8.15905      1.0  obsgroup
+pobs60                  34.4146      1.0  obsgroup
+nobs60                  7.05372      1.0  obsgroup
+pobs61                  34.9346      1.0  obsgroup
+nobs61                  6.05397      1.0  obsgroup
+* model command line
+model
+* model input/output
+model.tpl  model.inp
+model.ins  model.out
+* prior information
