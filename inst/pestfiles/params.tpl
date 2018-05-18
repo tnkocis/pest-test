@@ -11,7 +11,7 @@ params:
   p0: 15
 
 control:
-  Tmax: 300
-  TimeStep: 5
+  tmax: 300
+  timeStep: 5
   n0: 50
   p0: 15

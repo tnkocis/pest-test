@@ -148,8 +148,8 @@ nobs60                  7.05372      1.0  obsgroup
 pobs61                  34.9346      1.0  obsgroup
 nobs61                  6.05397      1.0  obsgroup
 * model command line
-model
+pestcommand
 * model input/output
-model.tpl  model.inp
-model.ins  model.out
+params.tpl  params.yaml
+out.ins  out.txt
 * prior information

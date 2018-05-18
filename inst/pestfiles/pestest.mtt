@@ -1,0 +1,58 @@
+ PARAMETER STATISTICAL MATRICES: CASE pestest
+
+ OPTIMISATION ITERATION NUMBER  2
+
+
+ Parameter standard deviations ----->
+
+ Adjustable        Group           Current          Standard
+ parameter                         value            deviation
+ a                 a               0.120000         3.596119E-09
+ c                 c               6.000000E-02     2.207492E-09
+ r                 r               0.100000         5.395748E-09
+ s                 s               0.100000         5.496416E-09
+ k                 k                100.000         3.110482E-06
+ v                 v                40.0000         1.411680E-06
+
+ Note that if a parameter is log-transformed, the standard deviation in the 
+ above table refers to the log of the parameter. Note also that the objective
+ function used in the calculation of the covariance matrix (and eigenvalues
+ of the covariance matrix) was calculated at the end of the previous iteration.
+
+
+ Parameter covariance matrix ----->
+
+                   a            c            r            s            k            v      
+ a              1.2932E-17   6.2245E-18  -5.1307E-18  -2.8517E-18   8.6096E-16   2.0770E-16
+ c              6.2245E-18   4.8730E-18  -2.6744E-18  -1.2307E-18   1.1890E-15  -1.0738E-15
+ r             -5.1307E-18  -2.6744E-18   2.9114E-17   2.3976E-17  -3.7503E-15   5.0302E-16
+ s             -2.8517E-18  -1.2307E-18   2.3976E-17   3.0211E-17   5.0699E-16   1.5465E-15
+ k              8.6096E-16   1.1890E-15  -3.7503E-15   5.0699E-16   9.6751E-12   8.9793E-13
+ v              2.0770E-16  -1.0738E-15   5.0302E-16   1.5465E-15   8.9793E-13   1.9928E-12
+
+
+ Parameter correlation coefficient matrix ----->
+
+                   a            c            r            s            k            v      
+ a               1.000       0.7841      -0.2644      -0.1443       7.6970E-02   4.0913E-02
+ c              0.7841        1.000      -0.2245      -0.1014       0.1732      -0.3446    
+ r             -0.2644      -0.2245        1.000       0.8085      -0.2235       6.6039E-02
+ s             -0.1443      -0.1014       0.8085        1.000       2.9654E-02   0.1993    
+ k              7.6970E-02   0.1732      -0.2235       2.9654E-02    1.000       0.2045    
+ v              4.0913E-02  -0.3446       6.6039E-02   0.1993       0.2045        1.000    
+
+
+ Normalized eigenvectors of covariance matrix ----->
+
+               Vector_1     Vector_2     Vector_3     Vector_4     Vector_5     Vector_6   
+ a              0.4597       0.1591      -0.8615       0.1452      -5.6997E-05  -8.9899E-05
+ c             -0.8862       2.4885E-02  -0.4602       4.7774E-02   6.3672E-04  -1.0821E-04
+ r             -2.0281E-02   0.7239       6.6029E-03  -0.6896      -4.9194E-04   3.7510E-04
+ s              5.4269E-02  -0.6709      -0.2142      -0.7078      -7.8247E-04  -6.9624E-05
+ k              1.1426E-04   2.7913E-04   1.5281E-04  -3.3099E-04   0.1146      -0.9934    
+ v             -6.1388E-04   2.0900E-04  -6.2450E-05   8.8316E-04  -0.9934      -0.1146    
+
+
+ Eigenvalues ----->
+
+                7.6072E-19   4.3710E-18   1.5450E-17   5.2545E-17   1.8893E-12   9.7787E-12

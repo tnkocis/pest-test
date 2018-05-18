@@ -5,5 +5,6 @@ args <- commandArgs(TRUE)
 paramfile = args[1]
 outfile = args[2]
 
+devtools::load_all("C:/repository/pestest")
 LV.out = run_model(param.file = paramfile)
 write_outputs(LV.out, outfile)
