@@ -1,0 +1,36 @@
+                       PARAMETER SENSITIVITIES: CASE pestest
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity
+   a               a               0.120000          162.837    
+   c               c               6.000000E-02      309.654    
+   r               r               0.100000          112.762    
+   s               s               0.100000          82.8746    
+   k               k                100.000         0.115235    
+   v               v                40.0000         0.354972    
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+ Parameter name    Group          Current value    Sensitivity
+   a               a               0.120000          99.5264    
+   c               c               6.000000E-02      176.652    
+   r               r               0.100000          62.1431    
+   s               s               0.100000          59.6668    
+   k               k                100.000         6.609388E-02
+   v               v                40.0000         0.176481    
+
+
+
+                        COMPLETION OF OPTIMISATION PROCESS
+
+ Composite sensitivities for all observations/prior info ----->
+
+ Number of observations with non-zero weight =   122
+ Parameter name    Group          Current value    Sensitivity
+   a               a               0.120000          162.837    
+   c               c               6.000000E-02      309.654    
+   r               r               0.100000          112.762    
+   s               s               0.100000          82.8746    
+   k               k                100.000         0.115235    
+   v               v                40.0000         0.354972    

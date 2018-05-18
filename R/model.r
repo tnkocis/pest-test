@@ -25,6 +25,8 @@ run_model = function(params, control, param.file) {
     params = inyaml$params
     control = inyaml$control
   }
+  if(missing(params) | missing(control))
+    stop('both "params" or "control" must be specified, or a YAML file.')
   times = seq(0, control$tmax, by = control$timeStep)
   deSolve::ode(c(n0 = params$n0, p0 = params$p0), times, predpreymod, params)
 }

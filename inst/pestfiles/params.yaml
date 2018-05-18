@@ -1,4 +1,4 @@
-
+ 
 params:
   a:   1.2000000E-01
   c:   6.0000000E-02
@@ -8,9 +8,9 @@ params:
   v:   4.0000000E+01
   n0: 50
   p0: 15
-
+ 
 control:
-  Tmax: 300
-  TimeStep: 5
+  tmax: 300
+  timeStep: 5
   n0: 50
   p0: 15
